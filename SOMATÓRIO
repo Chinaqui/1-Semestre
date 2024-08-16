@@ -1,0 +1,10 @@
+programa SOMATÓRIO
+var
+  SOMA, CONTADOR : inteiro
+início
+  SOMA <-- 0
+  para CONTADOR de 1 até 100 passo 1 faça
+    SOMA <-- SOMA + CONTADOR
+  fim_para
+  escreva SOMA
+fim
