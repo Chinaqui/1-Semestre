@@ -1,0 +1,8 @@
+programa TEMPERATURA
+var
+  C, F : real
+início
+  leia C
+  F <-- C * 9 / 5 + 32
+  escreva F
+fim
