@@ -1,0 +1,24 @@
+programa JUNÇÃO
+var
+  A: conjunto[1..20] de inteiro
+  B: conjunto[1..30] de interio
+  C: conjunto[1..50] de inteiro
+  I: inteiro
+início
+  para I de 1 até 20 passo 1 faça
+    leia A [I]
+  fim_para
+  para I de 1 até 30 passo 1 faça
+    leia B[I]
+  fim_para
+  para I de 1 até 50 passo 1 faça
+    se (I <= 20) então
+      C[I] <-- A[I]
+    senão
+      C[I] <-- B[I-20]
+    fim_se
+  fim_para
+  para I de 1 até 50 passo 1 faça
+    escreva C[I]
+  fim_para
+fim
