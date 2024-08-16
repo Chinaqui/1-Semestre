@@ -1,0 +1,12 @@
+programa MÉDIA
+var
+  MD, N1, N2, N3, N4: real
+início
+  leia N1, N2, N3, N4
+  MD <-- (N1 + N2 + N3 + N4) / 4
+  se (MD >= 5) então
+    escreva "Aluno aprovado com média: ", MD
+  senão
+    escreva "Aluno reprovado com média: ", MD
+  fim_se
+fim
